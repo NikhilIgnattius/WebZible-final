@@ -1,4 +1,4 @@
-console.log("scripts.js working")
+console.log("scripts.js running")
 import contrastChanger from "./contrastChanger.js";
 import highlightLink from "./highlightLinks.js";
 import biggerText from "./biggerText.js";
