@@ -1,15 +1,15 @@
 console.log("scripts.js running")
-import contrastChanger from "./contrastChanger.js";
-import highlightLink from "./highlightLinks.js";
-import biggerText from "./biggerText.js";
-import increaseLineHeight from "./lineHeight.js";
-import saturationChange from "./saturation.js";
-import cursorChanger from "./cursor.js";
-import changeAlignment from "./textAlignment.js";
-import textSpacing from "./textSpacing.js";
-import changeText from "./legibleFonts.js";
-import hideImages from "./hideImages.js";
-import toolTip from "./toolTips.js";
+import contrastChanger from "https://nikhilignattius.github.io/contrastChanger.js";
+import highlightLink from "https://nikhilignattius.github.io/highlightLinks.js";
+import biggerText from "https://nikhilignattius.github.io/biggerText.js";
+import increaseLineHeight from "https://nikhilignattius.github.io/lineHeight.js";
+import saturationChange from "https://nikhilignattius.github.io/saturation.js";
+import cursorChanger from "https://nikhilignattius.github.io/cursor.js";
+// import changeAlignment from "./textAlignment.js";
+// import textSpacing from "./textSpacing.js";
+// import changeText from "./legibleFonts.js";
+// import hideImages from "./hideImages.js";
+// import toolTip from "./toolTips.js";
 
 const parentDocument = window.parent.document;
 
