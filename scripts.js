@@ -1,6 +1,6 @@
 console.log("scripts.js running")
-import contrastChanger from "https://nikhilignattius.github.io/contrastChanger.js";
-import highlightLink from "https://nikhilignattius.github.io/highlightLinks.js";
+import contrastChanger from "./contrastChanger.js";
+import highlightLink from "./highlightLinks.js";
 import biggerText from "https://nikhilignattius.github.io/biggerText.js";
 import increaseLineHeight from "https://nikhilignattius.github.io/lineHeight.js";
 import saturationChange from "https://nikhilignattius.github.io/saturation.js";
