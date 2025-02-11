@@ -92,7 +92,7 @@ function accessibilityButton() {
 
   // Creating the iframe
   const iframe = document.createElement("iframe");
-  iframe.src = "./widget.html";
+  iframe.src = "https://nikhilignattius.github.io/WebZible-final/widget.html";
   iframe.className = "iframe-page";
   document.body.appendChild(iframe);
 
