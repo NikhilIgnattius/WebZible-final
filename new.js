@@ -92,7 +92,7 @@ function accessibilityButton() {
 
   // Creating the iframe
   const iframe = document.createElement("iframe");
-  iframe.src = "https://webzible.netlify.app/widget.js";
+  iframe.src = "https://webzible.netlify.app/widget.html";
   iframe.className = "iframe-page";
   document.body.appendChild(iframe);
 
