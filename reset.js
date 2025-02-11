@@ -1,0 +1,3 @@
+function resetSettings() {}
+
+function resetContrast() {}

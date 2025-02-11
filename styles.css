@@ -1,0 +1,132 @@
+:root {
+  --widget-color-1: #e74344;
+  --widget-color-2: #20a25c;
+  --widget-color-3: #377cba;
+  --widget-color-4: #fbba34;
+}
+
+body {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.widget {
+  position: fixed;
+  background-color: #006be6;
+  width: 30em;
+  height: 100vh;
+  padding-top: 1em;
+  right: 0;
+  top: 0;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 1;
+  display: block;
+  overflow-y: auto;
+  border-radius: 16px 0 0 16px;
+  z-index: 9999;
+  scrollbar-width: none;
+}
+
+.widget-title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.main-div {
+  background-color: #eff1f5;
+  /* border-radius: 16px 0 0 16px; */
+  width: 100%;
+  /* height: calc(100vh - 3em); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  overflow-y: auto;
+  padding: 1em;
+  gap: 0.5em;
+  box-sizing: border-box;
+}
+
+.feature {
+  background-color: white;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 16px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: border 0.05s ease;
+  width: calc(50% - 0.5em);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 8em;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.feature:hover {
+  border: 3px solid #006be6;
+}
+
+.feature svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 10px;
+  fill: black;
+}
+
+.feature p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.feature.selected {
+  border: 3px solid #006be6;
+  color: #006be6;
+}
+
+.feature.selected svg {
+  fill: #006be6;
+}
+
+.widget-header {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin: 0 1em;
+
+  justify-content: space-between;
+}
+
+.widget-header > svg {
+  /* border: 1px solid red; */
+  width: 2.5em;
+  height: 2.5em;
+  /* fill: white; */
+  /* margin: 0.5em; */
+  cursor: pointer;
+}
+
+.resetButton {
+  display: flex;
+  background-color: #006be6;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 2em 1em 4em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 2em; */
+}
+
+.resetButton svg {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.5em;
+  fill: white;
+}
